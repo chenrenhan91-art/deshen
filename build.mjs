@@ -159,7 +159,6 @@ function layout({ title, description, base, current, main }) {
         <p>DESHEN INTERNATIONAL LIMITED</p>
         <p>德晟國際有限公司</p>
         <p>香港九龙观塘开源道 45 号<br>有利中心 3 楼 89 室</p>
-        <p><a href="tel:+85235904418">+852 3590 4418</a></p>
         <p><a href="mailto:hello@deshenintl.com">hello@deshenintl.com</a></p>
       </div>
       <div>
@@ -553,7 +552,7 @@ function aboutPage() {
       <div class="banner-media">
         <img src="./images/banners/hero.jpg" alt="银色弧形落地灯放在白色房间里" style="object-position:center 28%">
       </div>
-      <p>周一至周五 10:00-18:00。电话 <a class="link" href="tel:+85235904418">+852 3590 4418</a>，邮箱 <a class="link" href="mailto:hello@deshenintl.com">hello@deshenintl.com</a>。</p>
+      <p>周一至周五 10:00-18:00。邮箱 <a class="link" href="mailto:hello@deshenintl.com">hello@deshenintl.com</a>。</p>
     </div>`;
   return layout({
     title: "关于 - DESHEN",
@@ -568,7 +567,7 @@ function contactPage() {
   const main = `
     <div class="wrap section prose">
       <h1>联系</h1>
-      <p>写信给我们，或在营业时间打电话。</p>
+      <p>写信给我们，我们会在营业时间内回复。</p>
       <form data-contact novalidate>
         <div class="field"><label for="name">姓名</label><input id="name" name="name" required><p class="field-error" data-error-for="name"></p></div>
         <div class="field"><label for="email">邮箱</label><input id="email" name="email" type="email" required><p class="field-error" data-error-for="email"></p></div>
@@ -577,7 +576,7 @@ function contactPage() {
         <button class="btn" type="submit">发送</button>
       </form>
       <p data-contact-done hidden>已记下。我们会回复到你留的邮箱。</p>
-      <p>DESHEN INTERNATIONAL LIMITED<br>香港九龙观塘开源道 45 号有利中心 3 楼 89 室<br><a class="link" href="tel:+85235904418">+852 3590 4418</a><br><a class="link" href="mailto:hello@deshenintl.com">hello@deshenintl.com</a></p>
+      <p>DESHEN INTERNATIONAL LIMITED<br>香港九龙观塘开源道 45 号有利中心 3 楼 89 室<br><a class="link" href="mailto:hello@deshenintl.com">hello@deshenintl.com</a></p>
     </div>`;
   return layout({
     title: "联系 - DESHEN",
@@ -632,7 +631,7 @@ function faqPage() {
     ["可以怎么付款", "可以选择银行转账。香港地址还可以货到付款。收款账户会在订单邮件里。"],
     ["可以退货吗", "签收后 30 天内，未使用的商品可以退换。点燃过的蜡烛和不健康的植物不在无理由退换范围内。"],
     ["照片里的其他东西呢", "商品名写的是你买到的那一件。如果照片里还有桌子、靠垫或植物，商品页会写明那些不随货。"],
-    ["什么时间能联系到人", "周一至周五 10:00-18:00，电话 +852 3590 4418，邮箱 hello@deshenintl.com。"],
+    ["什么时间能联系到人", "周一至周五 10:00-18:00，邮箱 hello@deshenintl.com。"],
   ]
     .map(
       ([q, a]) => `<details>
